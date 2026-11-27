@@ -10,7 +10,7 @@ cryptography
 bcrypt==5.0.0
 argon2-cffi==25.1.0
 PyJWT[crypto]==2.10.1
-authlib==1.6.5
+authlib==1.9.1
 
 requests==2.32.5
 aiohttp==3.12.15
@@ -58,13 +58,13 @@ pyarrow==20.0.0 # fix: pin pyarrow version to 20 for rpi compatibility #15897
 einops==0.8.1 
 
 ftfy==6.2.3
-pypdf==6.0.0
+pypdf==6.21.4
 fpdf2==2.8.2
 pymdown-extensions==10.14.2
 docx2txt==0.8
 python-pptx==1.0.2
 unstructured==0.16.17
-nltk==3.9.1
+nltk==3.10.4
 Markdown==3.9
 pypandoc==1.15
 pandas==2.2.3
@@ -77,7 +77,7 @@ sentencepiece
 soundfile==0.13.1
 azure-ai-documentintelligence==1.0.2
 
-pillow==11.3.0
+pillow==13.0.0
 opencv-python-headless==4.11.0.86
 rapidocr-onnxruntime==1.4.4
 rank-bm25==0.2.2
@@ -136,7 +136,7 @@ ldap3==2.9.1
 firecrawl-py==1.12.0
 
 ## Trace
-opentelemetry-api==1.37.0
+opentelemetry-api==1.45.2
 opentelemetry-sdk==1.37.0
 opentelemetry-exporter-otlp==1.37.0
 opentelemetry-instrumentation==0.58b0
