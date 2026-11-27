@@ -13,7 +13,7 @@ PyJWT[crypto]==2.10.1
 authlib==1.9.1
 
 requests==2.32.5
-aiohttp==3.12.15
+aiohttp==3.14.4
 async-timeout
 aiocache
 aiofiles
@@ -37,7 +37,7 @@ asgiref==3.8.1
 
 # AI libraries
 tiktoken
-mcp==1.14.1
+mcp==1.30.0
 
 openai
 anthropic
