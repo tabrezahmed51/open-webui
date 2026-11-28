@@ -1,7 +1,7 @@
 fastapi==0.118.0
 uvicorn[standard]==0.37.0
 pydantic==2.11.9
-python-multipart==0.0.31
+python-multipart==0.0.34
 itsdangerous==2.2.0
 
 python-socketio==5.13.0
@@ -44,7 +44,7 @@ anthropic
 google-genai==1.38.0
 google-generativeai==0.8.5
 
-langchain==1.3.9
+langchain==1.5.2
 langchain-community==0.3.29
 
 fake-useragent==2.2.0
@@ -54,13 +54,13 @@ opensearch-py==2.8.0
 transformers
 sentence-transformers==5.1.1
 accelerate
-pyarrow==23.0.1 # fix: pin pyarrow version to 20 for rpi compatibility #15897
+pyarrow==26.0.1 # fix: pin pyarrow version to 20 for rpi compatibility #15897
 einops==0.8.1 
 
 ftfy==6.2.3
 pypdf==7.2.0
 fpdf2==2.8.2
-pymdown-extensions==10.14.2
+pymdown-extensions==11.0.1
 docx2txt==0.8
 python-pptx==1.0.2
 unstructured==0.16.17
