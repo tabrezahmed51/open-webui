@@ -1,7 +1,7 @@
 fastapi==0.118.0
 uvicorn[standard]==0.37.0
 pydantic==2.11.9
-python-multipart==0.0.34
+python-multipart==0.0.31
 itsdangerous==2.2.0
 
 python-socketio==5.16.2
@@ -10,10 +10,10 @@ cryptography
 bcrypt==5.0.0
 argon2-cffi==25.1.0
 PyJWT[crypto]==2.10.1
-authlib==1.9.10
+authlib==1.9.1
 
-requests==2.34.2
-aiohttp==3.14.5
+requests==2.33.0
+aiohttp==3.14.4
 async-timeout
 aiocache
 aiofiles
@@ -54,16 +54,16 @@ opensearch-py==2.8.0
 transformers
 sentence-transformers==5.1.1
 accelerate
-pyarrow==26.0.1 # fix: pin pyarrow version to 20 for rpi compatibility #15897
+pyarrow==23.0.1 # fix: pin pyarrow version to 20 for rpi compatibility #15897
 einops==0.8.1 
 
 ftfy==6.2.3
-pypdf==7.2.0
+pypdf==6.21.4
 fpdf2==2.8.2
-pymdown-extensions==13.1.2
+pymdown-extensions==11.0.1
 docx2txt==0.8
 python-pptx==1.0.2
-unstructured==0.18.32
+unstructured==0.24.1
 nltk==3.10.4
 Markdown==3.9
 pypandoc==1.15
